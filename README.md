@@ -108,3 +108,8 @@ Launching ToTeM version 0.3.0
 
 ## About AccessRemoteMySQLDB
 The `mysqli` PHP extension must be installed on your server, the file **handleSQL.php** use `mysqli_connect()`
+
+So, update your `php.ini`, uncomment the following line:
+```
+extension=php_mysqli.dll
+```
