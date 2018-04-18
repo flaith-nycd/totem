@@ -81,8 +81,8 @@ E:\Projects\java\IdeaProjects\totem\out\artifacts\totem_jar (master)
 $
 ```
 
-## In case the file (handleSQL.php), on your remote eserver, is not found
-> rDbPHPFile=handleSQL.php in conf.properties
+## In case the file (handleSQL.php) is not found in your remote server
+> "rDbPHPFile=handleSQL.php" in **conf.properties**
 ```
 E:\Projects\java\IdeaProjects\totem\out\artifacts\totem_jar (master)
 λ java -jar totem.jar
