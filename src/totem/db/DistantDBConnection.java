@@ -93,7 +93,8 @@ public class DistantDBConnection {
         boolean result;
 
         //String targetUrl = targetIp.replaceFirst("^(http[s]?://www\\.|http[s]?://|www\\.)", "");
-        String targetUrl = target.replaceFirst("^(http[s]?:\\/.)", "");
+//        String targetUrl = target.replaceFirst("^(http[s]?:\\/.)", "");
+        String targetUrl = target.replaceFirst("^(http[s]?://)", "");
 
         Log.d("Checking access to " + targetUrl);
 
