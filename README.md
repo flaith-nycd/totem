@@ -105,3 +105,6 @@ Launching ToTeM version 0.3.0
 [2018-04-18 13:41:58] >>> Checking access to 192.168.2.50
 [2018-04-18 13:41:58] >>> ERROR: Cannot access to remote server http://192.168.2.50, check the config file or the network !
 ```
+
+## About AccessRemoteMySQLDB
+The `mysqli` PHP extension must be installed on your server, the file **handleSQL.php** use `mysqli_connect()`
