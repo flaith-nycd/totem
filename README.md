@@ -80,3 +80,28 @@ admin, SiteTest #01, 2018-04-18 12:06:01, Test Envoi Message local vers remote, 
 E:\Projects\java\IdeaProjects\totem\out\artifacts\totem_jar (master)
 $
 ```
+
+## In case the file (handleSQL.php), on your remote eserver, is not found
+> rDbPHPFile=handleSQL.php in conf.properties
+```
+E:\Projects\java\IdeaProjects\totem\out\artifacts\totem_jar (master)
+λ java -jar totem.jar
+Launching ToTeM version 0.3.0
+
+[2018-04-18 13:47:24] >>> Checking URL http://192.168.0.13/handleSQL.php
+[2018-04-18 13:47:24] >>> Connecting...
+[2018-04-18 13:47:24] >>> Checking access to 192.168.0.13
+[2018-04-18 13:47:24] >>> ERROR: Cannot access to "handleSQL.php" on the remote server http://192.168.0.13
+```
+
+## In case there is a problem to access to the remote server (the IP is not reachable)
+```
+E:\Projects\java\IdeaProjects\totem\out\artifacts\totem_jar (master)
+λ java -jar totem.jar
+Launching ToTeM version 0.3.0
+
+[2018-04-18 13:41:58] >>> Checking URL http://192.168.2.50/handleSQL.php
+[2018-04-18 13:41:58] >>> Connecting...
+[2018-04-18 13:41:58] >>> Checking access to 192.168.2.50
+[2018-04-18 13:41:58] >>> ERROR: Cannot access to remote server http://192.168.2.50, check the config file or the network !
+```
