@@ -12,6 +12,8 @@ import java.util.Date;
 
 /**
  * Distant Database Connection Management
+ *
+ * armdb: https://github.com/rohit7209/AccessRemoteMySQLDB
  */
 public class DistantDBConnection {
     private ConnectHost remoteDBCnx;
