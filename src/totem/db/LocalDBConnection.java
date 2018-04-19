@@ -144,28 +144,6 @@ public class LocalDBConnection {
         stmt.close();
     }
 
-    private static ArrayList<ArrayList<Object>> dump(ResultSet queryResults) throws SQLException {
-        ResultSetMetaData meta = queryResults.getMetaData();
-        int colmax = meta.getColumnCount();
-
-        Object column;
-
-        ArrayList<ArrayList<Object>> result = new ArrayList<>();
-
-        while (queryResults.next()) {
-            ArrayList<Object> col = new ArrayList<>();
-            for (int i = 0; i < colmax; i++) {
-                column = queryResults.getObject(i + 1);
-
-                col.add(column);
-            }
-
-            result.add(col);
-        }
-
-        return result;
-    }
-
     /**
      * Called from the Main as a static
      *
