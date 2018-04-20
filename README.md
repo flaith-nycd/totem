@@ -37,7 +37,7 @@ RFID for case ID 3: 9003
 File separator: \
 Working Directory = E:\Projects\java\IdeaProjects\totem\out\artifacts\totem_jar
 --- WHERE IS THE CONFIG FILE ---
-dbPath: E:\Projects\java\IdeaProjects\totem\out\artifacts\totem_jar\conf.properties
+configFilename: E:\Projects\java\IdeaProjects\totem\out\artifacts\totem_jar\conf.properties
 --- DATABASE FROM CONFIG FILE ---
 dbPath: db
 dbName: db\totem_db
