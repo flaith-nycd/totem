@@ -113,7 +113,7 @@ public class Main {
 
         System.out.println("--- WHERE IS THE CONFIG FILE ---");
         if (Config.configFileExist) {
-            System.out.println("dbPath: " + Config.configFilename);
+            System.out.println("configFilename: " + Config.configFilename);
         } else {
             Log.dd("Config file \"" + Config.configFilename + "\" not found !!!");
         }
