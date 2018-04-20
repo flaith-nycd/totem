@@ -142,8 +142,10 @@ public class Main {
                 // The keyToFind SHOULD BE in UPPERCASE
                 String ID = (String) LocalDBConnection.getValueFromKey(row, "ID");
                 String id_user = (String) LocalDBConnection.getValueFromKey(row, "ID_USER");
+                // Let's try with an Object to test
                 Object id_site = LocalDBConnection.getValueFromKey(row, "ID_SITE");
                 String date = (String) LocalDBConnection.getValueFromKey(row, "DATE");
+                // Let's try with an Object to test again
                 Object message = LocalDBConnection.getValueFromKey(row, "MESSAGE");
                 String sync = (String) LocalDBConnection.getValueFromKey(row, "SYNC");
 
