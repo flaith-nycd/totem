@@ -9,6 +9,7 @@ import java.net.*;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import org.apache.commons.codec.binary.Base64;
 
 /**
  * Distant Database Connection Management
